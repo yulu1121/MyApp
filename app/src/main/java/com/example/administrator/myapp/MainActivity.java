@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //这是我修改过的Git
     public void sayHello(Context context){
         Toast.makeText(this, "你好", Toast.LENGTH_SHORT).show();
     }
